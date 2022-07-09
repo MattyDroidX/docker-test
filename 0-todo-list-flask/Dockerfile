@@ -17,4 +17,4 @@ WORKDIR /app
 COPY . .
 
 # the command to run once we run the container 
-CMD [ "python3" "app.py" ]
+CMD [ "python3" , "app.py" ]
